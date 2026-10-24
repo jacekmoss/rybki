@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-256 -256 512 512">
+  <defs>
+    <linearGradient id="iconbg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E9D3BA"/><stop offset=".42" stop-color="#F4D2AE"/>
+      <stop offset=".42" stop-color="#5E9FA8"/><stop offset="1" stop-color="#0E2E40"/>
+    </linearGradient>
+    <g id="fish">
+      <path d="M-44 0 L-70 -22 L-63 0 L-70 22Z" fill="currentColor"/>
+      <path d="M-6 -27 L16 -40 L24 -25Z" fill="currentColor"/>
+      <path d="M52 0 C34 -30 -10 -34 -46 0 C-10 34 34 30 52 0Z"/>
+      <path d="M-46 0 C-10 34 34 30 52 0Z" fill="#fff" opacity=".16"/>
+      <path d="M-6 -24 L-6 24 M-20 -15 L-20 15" stroke="currentColor" stroke-width="4" opacity=".6"/>
+      <path d="M14 -23 C7 -8 7 8 14 23" stroke="currentColor" stroke-width="2.5" fill="none" opacity=".8"/>
+      <circle cx="31" cy="-6" r="4.5" fill="#10232E"/>
+      <circle cx="32.5" cy="-7.5" r="1.4" fill="#fff"/>
+    </g>
+  </defs>
+  <rect x="-256" y="-256" width="512" height="512" rx="112" fill="url(#iconbg)"/>
+  <circle cx="120" cy="-110" r="46" fill="#FFF2D8"/>
+  <path d="M-256 -40 Q-200 -52 -144 -40 T-32 -40 T80 -40 T192 -40 T304 -40" fill="none" stroke="#FFF2D8" stroke-opacity=".7" stroke-width="6"/>
+  <path d="M-60 -256 L-60 30" stroke="#F4EBDD" stroke-opacity=".8" stroke-width="5"/>
+  <path d="M-60 30 L-60 70 C-60 100 -20 100 -20 70 L-30 60" stroke="#DCE3E6" stroke-width="9" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <use href="#fish" fill="#E8775A" color="#B9503A" transform="translate(70 110) scale(-2.1 2.1)"/>
+</svg>
