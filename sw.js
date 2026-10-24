@@ -2,8 +2,8 @@
 /* Rybki – działanie bez internetu.
    Pliki gry: najpierw sieć (zawsze najnowsza wersja z GitHub Pages), a bez sieci kopia z pamięci telefonu.
    Czcionka Outfit z Google Fonts: najpierw pamięć, bo się nie zmienia. */
-const CACHE = 'rybki-v1';
-const FILES = ['./', './index.html', './game.js', './manifest.webmanifest', './icon.svg'];
+const CACHE = 'rybki-v2';
+const FILES = ['./', './index.html', './game.js', './manifest.webmanifest', './icon.svg', './icon-192.png', './icon-512.png', './icon-maskable-512.png'];
 
 self.addEventListener('install', (e) => {
   e.waitUntil(caches.open(CACHE).then((c) => c.addAll(FILES)).then(() => self.skipWaiting()));
